@@ -29,6 +29,7 @@ chmod +x node_sh_check.sh
 
 ## Example Output
 
+```bash
 ⚠️  Total known compromised packages in list: 526
 📦 Scanning project at: /home/user/my-react-app
 ------------------------------------------------------------
@@ -40,6 +41,7 @@ Scan complete.
 Total packages scanned: 52
 Compromised packages found: 1
 📄 Report saved to: compromised_report.csv
+```
 
 ## What to Do if a Package Is Found to Be Compromised
 If the scan identifies any compromised packages:
